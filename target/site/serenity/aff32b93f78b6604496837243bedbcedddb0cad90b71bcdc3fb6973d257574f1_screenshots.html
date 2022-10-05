@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automation Challenge of UTest.com</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ee00d0304bc02080f3ae082635070697abacab2c6106c484e6ab6de340d25763.html">Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="aff32b93f78b6604496837243bedbcedddb0cad90b71bcdc3fb6973d257574f1.html">Successful Register </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-10-2022 11:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a User, I want to register in the website UTest.com.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html">Register
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Successful Register
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8706da798ce311d76019f733f6a141b64f0275a3ca591995ee4d2b9b5be9286f.png" title=" Given Than Julian want to register in the website" width="1920"/>
+                <img src="8706da798ce311d76019f733f6a141b64f0275a3ca591995ee4d2b9b5be9286f.png" title=" Julian open up" width="1920"/>
+                <img src="8706da798ce311d76019f733f6a141b64f0275a3ca591995ee4d2b9b5be9286f.png" title=" julian opens the U test com page" width="1920"/>
+                <img src="8706da798ce311d76019f733f6a141b64f0275a3ca591995ee4d2b9b5be9286f.png" title=" Julian open up (completed)" width="1920"/>
+                <img src="8706da798ce311d76019f733f6a141b64f0275a3ca591995ee4d2b9b5be9286f.png" title=" Given Than Julian want to register in the website (completed)" width="1920"/>
+                <img src="de2c2a655770465bc7fe32eb52266f10c771518d406e28bf11529ed5bbdee0b4.png" title=" When He complete the first part of the register
+| FirstName | LastName | EmailAddress | BirthMonth | BirthDay | BirthYear | Languages |
+| Julian Esteban | Polanco Sogamoso | jpolancos+54@choucairtesting.com | September | 14 | 2002 | Spanish |" width="1920"/>
+                <img src="de2c2a655770465bc7fe32eb52266f10c771518d406e28bf11529ed5bbdee0b4.png" title=" Julian full step1" width="1920"/>
+                <img src="de2c2a655770465bc7fe32eb52266f10c771518d406e28bf11529ed5bbdee0b4.png" title=" julian clicks on link that redirect to the sign up page" width="1920"/>
+                <img src="540bef73d679c714e3b835ba404708744ae0ef50f0999c5f4aef1896d51ab329.png" title=" julian enters 'Julian Esteban' into where do we write the First name" width="1920"/>
+                <img src="edfbc4109a20a089ede7b81d61519c42b0339856008acfbf2260baefa393b9c5.png" title=" julian enters 'Polanco Sogamoso' into where do we write the Last name" width="1920"/>
+                <img src="a92bee5b6d545a34de8f30d62aa0d3b672566bd74da2cdacff6014418b0d8384.png" title=" julian enters 'jpolancos+54@choucairtesting.com' into where do we write the Email address" width="1920"/>
+                <img src="d9dffea2c12ceab0cbd9a5e46cf135ab31431ae97b06dce87ff60cfa0a29aa2d.png" title=" julian select September on where do we select the Birth month" width="1920"/>
+                <img src="f0caee2bfd136df8890b3d9f7744c3670c5127e7bef8877a8893723a23ca2e59.png" title=" julian select 14 on where do we select the Birth day" width="1920"/>
+                <img src="429a2fdf8e6eda2e3aa9fbbabe05c756d96dadf84ff28c3d8e20dcaba40952e2.png" title=" julian select 2002 on where do we select the Birth year" width="1920"/>
+                <img src="e82870d740e8e9ca1b6435755cf800685f303e97fbb30dc385a877654103c764.png" title=" julian enters 'Spanish' into where do we select the Languages (spoken)" width="1920"/>
+                <img src="e64bfce1dba2ccc6ab3aa20d1f9dbd328b69c3f88621ddeaf11ff128f503abb9.png" title=" julian types 'ENTER' in where do we select the Languages (spoken)" width="1920"/>
+                <img src="df21b6d3ed370f08ae8d28ed36997705b38932b5e9bd6f1c3064edce77ae6fde.png" title=" julian clicks on button to go to the step 2" width="1920"/>
+                <img src="df21b6d3ed370f08ae8d28ed36997705b38932b5e9bd6f1c3064edce77ae6fde.png" title=" Julian full step1 (completed)" width="1920"/>
+                <img src="df21b6d3ed370f08ae8d28ed36997705b38932b5e9bd6f1c3064edce77ae6fde.png" title=" When He complete the first part of the register
+| FirstName | LastName | EmailAddress | BirthMonth | BirthDay | BirthYear | Languages |
+| Julian Esteban | Polanco Sogamoso | jpolancos+54@choucairtesting.com | September | 14 | 2002 | Spanish | (completed)" width="1920"/>
+                <img src="d436d6a5afde2958fa9317a868e5cd314e479e629130704f737b470f5772f2cc.png" title=" And Complete the second part
+| City | Zip | Country |
+| Soacha | 250054 | Colombia |" width="1920"/>
+                <img src="d436d6a5afde2958fa9317a868e5cd314e479e629130704f737b470f5772f2cc.png" title=" Julian full step2" width="1920"/>
+                <img src="d436d6a5afde2958fa9317a868e5cd314e479e629130704f737b470f5772f2cc.png" title=" julian enters 'Soacha' into where do we write the city" width="1920"/>
+                <img src="992eeeb07b2f58375c24ab34705232f320423dc55ef0012e3cf6d9bb60109150.png" title=" julian types 'ARROW_DOWN' in where do we write the city" width="1920"/>
+                <img src="2e4a678df9e1c99251bc7df42006e20d50131fed720716b27bf7056ba4fb9c1f.png" title=" julian types 'ENTER' in where do we write the city" width="1920"/>
+                <img src="dcf551c443653a23789e3d910dcbcec5f2d2f59cb6a7841bb8ea6f36c72d7369.png" title=" julian enters '250054' into where do we write the Zip or Postal Code" width="1920"/>
+                <img src="669b7fd9c3df360926f64ffaca8eab601516749dcf857ccd6da8502c1285d946.png" title=" julian clicks on where do we click to write the Country" width="1920"/>
+                <img src="6aa0d098cc0bdea37339b84cc2d3d82575eef898f79dce657730793848d739de.png" title=" julian enters 'Colombia' into where do we write the Country" width="1920"/>
+                <img src="affed8c847b08878c3826d89090685649bc1b224f97bde0755d200a01ca8fd08.png" title=" julian clicks on button to go to the step 3" width="1920"/>
+                <img src="affed8c847b08878c3826d89090685649bc1b224f97bde0755d200a01ca8fd08.png" title=" Julian full step2 (completed)" width="1920"/>
+                <img src="affed8c847b08878c3826d89090685649bc1b224f97bde0755d200a01ca8fd08.png" title=" And Complete the second part
+| City | Zip | Country |
+| Soacha | 250054 | Colombia | (completed)" width="1920"/>
+                <img src="37ebf1b27f0af3c81f6bada57c315137b8cc791d183ae7325453d3f2eddaee18.png" title=" And Complete the third part
+| oSComputer | VersionOSComputer | LanguageOSComputer | BrandMobile | ModelMobile | OSMobile |
+| Windows | 7 64-bit | English | Xiaomi | Poco X3 Pro | Android 11 |" width="1920"/>
+                <img src="37ebf1b27f0af3c81f6bada57c315137b8cc791d183ae7325453d3f2eddaee18.png" title=" Julian full step3" width="1920"/>
+                <img src="37ebf1b27f0af3c81f6bada57c315137b8cc791d183ae7325453d3f2eddaee18.png" title=" julian clicks on where do we click to write the operating system" width="1920"/>
+                <img src="6eb026e73b44612e780c78da1e79ae4cbacd0a1e6940ee3d036b744adc76e80d.png" title=" julian enters 'Windows' into where do we write the operating system" width="1920"/>
+                <img src="42ac2e9dc1ca9f6acaf645cc0cb1de2a009dbc0374a384558085870cb934a0b8.png" title=" julian types 'ENTER' in where do we write the operating system" width="1920"/>
+                <img src="5338205fd764e0549cc1dcb5afed1759c90b780b853dc2db5778abf2a64fe228.png" title=" julian clicks on where do we click to write the version of the operating system" width="1920"/>
+                <img src="7c329a0a18d626131ba5c3dbfefa83cad79a60087069160faa8a743fad974b08.png" title=" julian enters '7 64-bit' into where do we write the version of the operating system" width="1920"/>
+                <img src="7216f6e0c8dcb2cca3d83a136d7045e475fae0d9d0dc226f45a3eadfc68a5386.png" title=" julian types 'ENTER' in where do we write the version of the operating system" width="1920"/>
+                <img src="3b60985b2405ab453afabac0a4cdcd5b0339c4bcd64845050807a1347dda8f1a.png" title=" julian clicks on where do we click write the language of the operating system" width="1920"/>
+                <img src="32bc8807fc3f7fd0aeebdc54269badd163e147537e9d309118c53e317d03bdc8.png" title=" julian enters 'English' into where do we write the language of the operating system" width="1920"/>
+                <img src="10503ad054778ae396fa1d4215e5caf139031a5f21b96b1b8ddc63eb06c82f0f.png" title=" julian types 'ENTER' in where do we write the language of the operating system" width="1920"/>
+                <img src="48373470c65d26fc40e759972236bbe670dbb5d6308fd329365a2b8a1f1f19af.png" title=" julian clicks on where do we click to write the brand of the mobile device" width="1920"/>
+                <img src="d96ac00ddd6b9bf43a73d4a54af7465d83cc554e167c4e09b612b6d01dc8bd5b.png" title=" julian enters 'Xiaomi' into where do we write the brand of the mobile device" width="1920"/>
+                <img src="e5c75d62679ea6026018c67edf549810a62c8582d0fd3588c24280aaa736cbbc.png" title=" julian types 'ENTER' in where do we write the brand of the mobile device" width="1920"/>
+                <img src="7a26e9cb75b5beb0825d0151b2b540970725d1cbdf35c1ac804876cec19dab1d.png" title=" julian clicks on where do we click to write the model of the mobile device" width="1920"/>
+                <img src="a839f8e9f51663f887de4b93e2088ea56bfc140c77f926ed9f8c0a3a40b1426d.png" title=" julian enters 'Poco X3 Pro' into where do we write the model of the mobile device" width="1920"/>
+                <img src="f51e954a27f198eb8336187643262c55fc234ce19bd3c9e0cebd856f22a8a1c2.png" title=" julian types 'ENTER' in where do we write the model of the mobile device" width="1920"/>
+                <img src="dd7a79b35bf8674a4da116d3a983d2a5e3b00e5863770654c02c091ae8aefda5.png" title=" julian clicks on where do we click to write the operating system of the mobile device" width="1920"/>
+                <img src="438d4782857ba35a63746a0d11fa5cad74078c57d6c082e457db7e456b463c9f.png" title=" julian enters 'Android 11' into where do we write the operating system of the mobile device" width="1920"/>
+                <img src="9cff594b8e3efa7f1808a716ed88918519a5aee24f408f02e2b420698318b779.png" title=" julian types 'ENTER' in where do we write the operating system of the mobile device" width="1920"/>
+                <img src="e7a06b709258f2fb573b2fd4ba4ad5beadb0167151ffb73917019d7a7b2f2cd8.png" title=" julian clicks on button to go to the step 4" width="1920"/>
+                <img src="e7a06b709258f2fb573b2fd4ba4ad5beadb0167151ffb73917019d7a7b2f2cd8.png" title=" Julian full step3 (completed)" width="1920"/>
+                <img src="e7a06b709258f2fb573b2fd4ba4ad5beadb0167151ffb73917019d7a7b2f2cd8.png" title=" And Complete the third part
+| oSComputer | VersionOSComputer | LanguageOSComputer | BrandMobile | ModelMobile | OSMobile |
+| Windows | 7 64-bit | English | Xiaomi | Poco X3 Pro | Android 11 | (completed)" width="1920"/>
+                <img src="725318af3b90adb07b15cb3c99b7a7cda952677c3154ec5a005636be46b29c0c.png" title=" And Complete the fourth part
+| password | confirmPassword |
+| Julian1402* | Julian1402* |" width="1920"/>
+                <img src="725318af3b90adb07b15cb3c99b7a7cda952677c3154ec5a005636be46b29c0c.png" title=" Julian full step4" width="1920"/>
+                <img src="725318af3b90adb07b15cb3c99b7a7cda952677c3154ec5a005636be46b29c0c.png" title=" julian enters 'Julian1402*' into where do we write the password" width="1920"/>
+                <img src="a70a32a53ad26eeb9c508d5343b05ad99fa5feeab516f81b720500655bacc6a8.png" title=" julian enters 'Julian1402*' into where do we write the Confirmed password" width="1920"/>
+                <img src="9d0822c035fd73fbce1e50990203d41a07c09ef922eedf3c4cb9b67fc45608a4.png" title=" julian clicks on where do we click check Stay Informed" width="1920"/>
+                <img src="2778ba5cbd7078e44ec4e6a933d9c8233d0080492f15a6d4bdcdddfd7107a774.png" title=" julian clicks on where do we click check the reading of the terms of use" width="1920"/>
+                <img src="efaab530470566bcf20da2ecef1a964bf6bc06af4ec5f51e3b1500166a1132df.png" title=" julian clicks on where do we click check the reading of the privacy &amp; security policy" width="1920"/>
+                <img src="a4bf05312e85f74543cbd3c1ff4cc206ca3d5d674deafddbf3133290d4a0abff.png" title=" julian clicks on where do we click Complete the Setup" width="1920"/>
+                <img src="a4bf05312e85f74543cbd3c1ff4cc206ca3d5d674deafddbf3133290d4a0abff.png" title=" Julian full step4 (completed)" width="1920"/>
+                <img src="a4bf05312e85f74543cbd3c1ff4cc206ca3d5d674deafddbf3133290d4a0abff.png" title=" And Complete the fourth part
+| password | confirmPassword |
+| Julian1402* | Julian1402* | (completed)" width="1920"/>
+                <img src="5af3e5aebf79d630718eb923f401b0c120719620e0361bb32e0f97d6c889206b.png" title=" Then He can se the welcome message" width="1920"/>
+                <img src="5af3e5aebf79d630718eb923f401b0c120719620e0361bb32e0f97d6c889206b.png" title=" Then answer" width="1920"/>
+                <img src="5af3e5aebf79d630718eb923f401b0c120719620e0361bb32e0f97d6c889206b.png" title=" Then He can se the welcome message (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
