@@ -1,4 +1,4 @@
-group 'co.com.choucair.FirstChallengeAutomation'
+group 'co.com.choucair.utestChallenge'
 version '1.0-SNAPSHOT'
 description='Automation Challenge UTest.com'
 

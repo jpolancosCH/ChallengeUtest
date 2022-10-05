@@ -8,8 +8,8 @@ Feature: Utest
   Scenario: Successful Register
     Given Than Julian want to register in the website
     When He complete the first part of the register
-      | FirstName      | LastName         | EmailAddress                    | BirthMonth | BirthDay | BirthYear | Languages |
-      | Julian Esteban | Polanco Sogamoso | jpolancos+54@choucairtesting.com | September  | 14       | 2002      | Spanish   |
+      | FirstName      | LastName         | EmailAddress                     | BirthMonth | BirthDay | BirthYear | Languages |
+      | Julian Esteban | Polanco Sogamoso | jpolancos+12@choucairtesting.com | September  | 14       | 2002      | Spanish   |
     And Complete the second part
       | City   | Zip    | Country  |
       | Soacha | 250054 | Colombia |
